@@ -1,4 +1,4 @@
-package com.uploader.apirest;
+package com.profile.apirest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

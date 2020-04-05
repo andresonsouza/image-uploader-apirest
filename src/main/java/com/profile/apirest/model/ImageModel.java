@@ -1,4 +1,4 @@
-package com.uploader.apirest;
+package com.profile.apirest.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
