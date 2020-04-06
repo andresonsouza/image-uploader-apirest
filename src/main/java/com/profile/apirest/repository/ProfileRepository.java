@@ -6,4 +6,6 @@ import com.profile.apirest.models.Profile;
 
 public interface ProfileRepository extends JpaRepository<Profile, Long> {
 
+	Profile findById(long id);
+	
 }
