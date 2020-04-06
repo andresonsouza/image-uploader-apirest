@@ -1,4 +1,4 @@
-package com.profile.apirest.controllers;
+package com.profile.apirest.resources;
 
 import java.io.IOException;
 
@@ -16,7 +16,7 @@ import com.profile.apirest.repositories.ImageRepository;
 @RestController
 @CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping(path = "check")
-public class TestController {
+public class ImageResource {
 
 	@Autowired
 	ImageRepository  imageRepository;

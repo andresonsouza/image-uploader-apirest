@@ -1,5 +1,7 @@
 package com.profile.apirest.model;
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -18,7 +20,9 @@ import lombok.ToString;
 @Data
 @NoArgsConstructor
 @ToString
-public class ImageModel {
+public class ImageModel implements Serializable {
+
+	private static final long serialVersionUID = 1L;
 
 	@Id
 	@Column(name = "id")
@@ -64,6 +68,5 @@ public class ImageModel {
 	public void setPic(byte[] pic) {
 		this.pic = pic;
 	}
-	
-	
+
 }
